@@ -69,7 +69,7 @@ def get_filters():
                     messsage = 'Valid day'
                     break
             if messsage != 'Valid day':
-                messsage = '\nInvalid day. Please enter day in ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")!\n'
+                messsage = '\nInvalid day. Please enter day that it is in ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")!\n'
                 print(messsage)
     except KeyboardInterrupt:
         print('\nNo input taken\n')
