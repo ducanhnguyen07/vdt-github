@@ -27,6 +27,7 @@ def get_filters():
             if (city.title() != 'Chicago' and city.title() != 'New York' and city.title() != 'Washington'):
                 print('\nInvalid city. Please enter "Chicago" or "New York" or "Washington"!\n')
             else:
+		print("none")
                 break
     except KeyboardInterrupt:
         print('\nNo input taken\n')
